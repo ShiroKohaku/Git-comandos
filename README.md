@@ -1,14 +1,15 @@
 # Comandos útiles de Git
 
-1. git init
-2. git add .
-3. git reset .
-4. git commit
-5. git checkout -- .
-6. git log
-7. git commit --amend
-8. git checkout -b rama-heroes
-9. git checkout master
-10. git branch -d rama-
-11. git push
-12. git commit -am
+1. git init (Inicializa tu repositorio)
+2. git add . (Preparar archivos para guardados)
+3. git reset .(Quita la preparacion del add. )
+4. git commit -m (Guarda los cambios hechos en el respositorio [punto de guardado])
+5. git checkout -- . (Puede restaurar los datos desde el ultimo commit [incluso si borras el archivo])
+6. git log (Te permite ver tus commits)
+7. git commit --amend (Puede modificar el utlimo commit [i para modificar. :w! para salir de la modificacion])
+8. git checkout -b rama-heroes (Crea una rama para trabajar [usualmente no se trabaja en master])
+9. git checkout master (Puede cambiarse de rama [master= al nombre de la rama])
+9.1 git branch (Para ver las ramas que tienes)
+10. git branch -d rama-  (Puede quitar la rama que le indiques)
+11. git push (Sube tus datos a un repositorio web en github)
+12. git commit -am (Puede hacer el [add. y commit -m] a la vez)
